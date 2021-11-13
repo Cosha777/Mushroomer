@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="Widget.Theme.Mushroomer.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+    </style>
+</resources>
