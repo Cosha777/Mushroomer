@@ -41,11 +41,6 @@ import ua.cosha.mushroomer.data.model.User;
 
 public class MapsFragment extends Fragment {
 
-    private String name = "Hello";
-
-
-
-
     private double myLatitude, myLongitude;
     private GoogleMap myMap;
     private float distance;
