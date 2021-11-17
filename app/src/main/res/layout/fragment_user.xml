@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/frag"
-    tools:context=".Map.UserFragment">
+    tools:context=".Login.UserFragment">
 
 
     <EditText
+        android:inputType="textPersonName"
         android:layout_marginTop="40dp"
         android:hint="Введите свое имя "
         android:id="@+id/editName"

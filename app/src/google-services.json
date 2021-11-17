@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "358674151683",
+    "project_id": "mushroomer-16c3f",
+    "storage_bucket": "mushroomer-16c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358674151683:android:b884985093cecaa2d55136",
+        "android_client_info": {
+          "package_name": "ua.cosha.mushroomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358674151683-bopg22u73ducohr0l16as1cq9gvpisbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ua.cosha.mushroomer",
+            "certificate_hash": "770b11398f44e60b2dd9d5fd97441c13517c75a5"
+          }
+        },
+        {
+          "client_id": "358674151683-r22pvbds7a52ijqaa2ul624u4qij278r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApzvr7-3pchdE_eryODNyPeUyX5TJkYEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358674151683-r22pvbds7a52ijqaa2ul624u4qij278r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

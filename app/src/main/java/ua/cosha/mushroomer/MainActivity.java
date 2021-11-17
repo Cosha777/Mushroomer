@@ -35,14 +35,11 @@ public class MainActivity extends AppCompatActivity {
 
         map = findViewById(R.id.btnMap);
         login = findViewById(R.id.btnLogin);
-
-
-
         onRequestPermission();
 
 
-
     }
+
     public  void  onRequestPermission(){
         String [] permission = {FINE_LOCATION, COARSE_LOCATION};
         if(ContextCompat.checkSelfPermission(this,FINE_LOCATION) == PackageManager.PERMISSION_GRANTED){

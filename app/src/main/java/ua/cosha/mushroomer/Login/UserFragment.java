@@ -1,4 +1,4 @@
-package ua.cosha.mushroomer.Map;
+package ua.cosha.mushroomer.Login;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -17,6 +17,7 @@ import androidx.fragment.app.FragmentTransaction;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import ua.cosha.mushroomer.Map.MapsFragment;
 import ua.cosha.mushroomer.R;
 import ua.cosha.mushroomer.data.model.User;
 
