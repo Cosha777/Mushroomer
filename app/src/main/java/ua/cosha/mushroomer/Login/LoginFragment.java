@@ -39,7 +39,7 @@ public class LoginFragment extends Fragment {
     private static final String TAG = "Tag";
     private FirebaseAuth mAuth;
     static final int RC_SIGN_IN = 234;
-    static final   String IDTOKEN = "873183496956-ns0af379aute5d89omh717sidjvudtgn.apps.googleusercontent.com";
+    static final   String IDTOKEN = "335890011285-k830csc005hh1jh7up9v4dr4ijvaoikn.apps.googleusercontent.com";
     GoogleSignInClient googleSignInClient;
 
     @Nullable
@@ -99,6 +99,7 @@ public class LoginFragment extends Fragment {
     private void signIn() {
         Intent signInIntent = googleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
+
     }
 
     private void firebaseAuthWithGoogle(String idToken) {

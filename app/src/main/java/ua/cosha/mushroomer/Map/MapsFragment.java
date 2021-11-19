@@ -70,7 +70,7 @@ public class MapsFragment extends Fragment {
     public void onResume() {
         super.onResume();
         getMyLocation();
-        putDataToDB("Artem", myLatitude, myLongitude);
+      //  putDataToDB("Artem", myLatitude, myLongitude);
     }
 
 
@@ -121,7 +121,7 @@ public class MapsFragment extends Fragment {
             myMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(myLatitude, myLongitude), 13));
             zoom = true;
         }
-        getData();
+        //getData();
         for (int i = 0; i < userPlaces.size(); i++) {
 
             if(!userPlaces.get(i).getId().equals(uId)){
@@ -175,7 +175,7 @@ public class MapsFragment extends Fragment {
     public void onPause() {
         super.onPause();
         locationManager.removeUpdates(locationListener);
-        removeDataFromDB();
+       // removeDataFromDB();
     }
 
     public static void  putDataToDB(String name, double latitude, double longitude){
