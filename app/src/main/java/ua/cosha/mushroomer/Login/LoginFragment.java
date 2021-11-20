@@ -99,7 +99,6 @@ public class LoginFragment extends Fragment {
     private void signIn() {
         Intent signInIntent = googleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
-
     }
 
     private void firebaseAuthWithGoogle(String idToken) {
